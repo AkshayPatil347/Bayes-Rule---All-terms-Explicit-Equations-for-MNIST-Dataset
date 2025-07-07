@@ -1,6 +1,6 @@
 Bayes Formula All terms explicit equation for MNIST Dataset -
 
-P(Y|X) * P(Y) = P(X|Y) * P(X)
+P(Y|X) * P(Y) = P(X|Y) * P(X) => Bayes Formula
 
 We here in the code compute the explicit equations of each of the above term for MNIST Dataset modelled via Autoencoder with Chebyshev Polynomial Approximation
 of Relu (activation function used for every layer in the considered Autoencoder) with Chebyshev Nodes, but other activations can also be used and approximated by this 
