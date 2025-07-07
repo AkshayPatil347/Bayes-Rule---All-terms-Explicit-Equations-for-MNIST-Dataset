@@ -5,7 +5,7 @@ P(Y|X) * P(Y) = P(X|Y) * P(X) => Bayes Formula
 We here in the code compute the explicit equations of each of the above term for MNIST Dataset modelled via Autoencoder with Chebyshev Polynomial Approximation
 of Relu (activation function used for every layer in the considered Autoencoder) with Chebyshev Nodes, but other activations can also be used and approximated by this 
 approach , more of which is discussed in our deterministic Interpretation of NN paper.
-Weights and biases can also be taken in Symbolic Notation and hence Prior on them can be set Via Bayesian Stats and using coordinate Ascent (15th Lecture of Andrew NG)
+Weights and biases can also be taken in Symbolic Notation and hence Prior on them can be set Via Bayesian Stats and using coordinate Ascent (15th Lecture of Andrew NG ML Standford 2018)
 or using the Max Likelihood for finding the parameters [W1,W2,W3,Wd1,Wd2,Wd3,b1,b2,b3,bd1,bd2,bd3] 
 explicitly without relying on the heuristic loss function landscape minimization , but
 Quintic equations itself are not solvable , hence we cannot get analytic solutions
